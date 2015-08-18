@@ -29,7 +29,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:tXmem-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1747,4 +1746,6 @@ F 3 "" H 2200 5550 60  0000 C CNN
 	1    2200 5150
 	0    -1   -1   0   
 $EndComp
+Text Label 2650 5050 0    39   ~ 0
+~E
 $EndSCHEMATC
