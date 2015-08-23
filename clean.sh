@@ -35,10 +35,10 @@ tXmem-F_SilkS.pho \
 tXmem-Inner1_Cu.pho \
 tXmem-Inner2_Cu.pho \
  \
-tXmem.pcb/ \
-tXmem.pcb.zip \
-tXmem.stencil/ \
-tXmem.stencil.zip \
+tXmem.oshpark/ \
+tXmem.oshpark.zip \
+tXmem.oshstencils/ \
+tXmem.oshstencils.zip \
  \
 signalConditioning.bak \
  \

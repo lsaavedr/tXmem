@@ -1,28 +1,26 @@
-rm -rf tXmem.pcb/
-rm -rf tXmem.pcb.zip
-mkdir tXmem.pcb
+rm -rf tXmem.oshpark/
+rm -rf tXmem.oshpark.zip
+mkdir tXmem.oshpark
 
-mv tXmem-B_Cu.gbl tXmem.pcb/tXmem-B_Cu.gbl
-mv tXmem-B_Mask.gbs tXmem.pcb/tXmem-B_Mask.gbs
-mv tXmem-B_SilkS.gbo tXmem.pcb/tXmem-B_SilkS.gbo
-mv tXmem-Edge_Cuts.gm1 tXmem.pcb/tXmem-Edge_Cuts.gko
-mv tXmem-F_Cu.gtl tXmem.pcb/tXmem-F_Cu.gtl
-mv tXmem-F_Mask.gts tXmem.pcb/tXmem-F_Mask.gts
-mv tXmem-F_SilkS.gto tXmem.pcb/tXmem-F_SilkS.gto
+mv tXmem-B_Cu.gbl tXmem.oshpark/tXmem-B_Cu.gbl
+mv tXmem-B_Mask.gbs tXmem.oshpark/tXmem-B_Mask.gbs
+mv tXmem-B_SilkS.gbo tXmem.oshpark/tXmem-B_SilkS.gbo
+mv tXmem-Edge_Cuts.gm1 tXmem.oshpark/tXmem-Edge_Cuts.gko
+mv tXmem-F_Cu.gtl tXmem.oshpark/tXmem-F_Cu.gtl
+mv tXmem-F_Mask.gts tXmem.oshpark/tXmem-F_Mask.gts
+mv tXmem-F_SilkS.gto tXmem.oshpark/tXmem-F_SilkS.gto
 
-mv tXmem-Inner1_Cu.gbr tXmem.pcb/tXmem-Inner1_Cu.g2l
-mv tXmem-Inner2_Cu.gbr tXmem.pcb/tXmem-Inner2_Cu.g3l
-mv tXmem.drl tXmem.pcb/tXmem.xln
+mv tXmem.drl tXmem.oshpark/tXmem.xln
 
-zip -r tXmem.pcb.zip tXmem.pcb
+zip -r tXmem.oshpark.zip tXmem.oshpark
 
-rm -rf tXmem.stencil/
-rm -rf tXmem.stencil.zip
-mkdir tXmem.stencil
+rm -rf tXmem.oshstencils/
+rm -rf tXmem.oshstencils.zip
+mkdir tXmem.oshstencils
 
-mv tXmem-B_Paste.gbp tXmem.stencil/tXmem-B_Paste.gbp
-mv tXmem-F_Paste.gtp tXmem.stencil/tXmem-F_Paste.gtp
+mv tXmem-B_Paste.gbp tXmem.oshstencils/tXmem-B_Paste.gbp
+mv tXmem-F_Paste.gtp tXmem.oshstencils/tXmem-F_Paste.gtp
 
-cp tXmem.pcb/tXmem-Edge_Cuts.gko tXmem.stencil/tXmem-Edge_Cuts.gko
+cp tXmem.oshpark/tXmem-Edge_Cuts.gko tXmem.oshstencils/tXmem-Edge_Cuts.gko
 
-zip -r tXmem.stencil.zip tXmem.stencil
+zip -r tXmem.oshstencils.zip tXmem.oshstencils
