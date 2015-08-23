@@ -46,4 +46,15 @@ powermod.bak \
  \
 _autosave-tXmem.kicad_pcb \
  \
-zones_dump.txt
+zones_dump.txt \
+ \
+tXmem-B_Cu.gbr \
+tXmem-B_Mask.gbr \
+tXmem-B_SilkS.gbr \
+tXmem-Edge_Cuts.gbr \
+tXmem-F_Cu.gbr \
+tXmem-F_Mask.gbr \
+tXmem-F_SilkS.gbr \
+ \
+tXmem-B_Paste.gbr \
+tXmem-F_Paste.gbr
